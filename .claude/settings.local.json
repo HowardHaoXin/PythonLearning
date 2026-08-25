@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"src\\\\B1_Annotation.py\")",
+      "Bash(cmd /c start \"Python Annotation\" cmd /k \"cd /d d:\\\\USE_HXP_3124352057\\\\use\\\\Simulation\\\\PythonLearning && python src\\\\B1_Annotation.py\")"
+    ]
+  }
+}
