@@ -2,6 +2,14 @@
 
 > 记录本项目的更新历史与改动说明，按时间倒序排列。
 
+## [2026-08-28][v1.2]
+
+### 新增
+
+- 新增学习文件 [src/B15_ExceptingHandling.py](src/B15_ExceptingHandling.py)：异常处理（异常基础、常见异常类型、`try-except` 捕获、`else`/`finally`、异常处理核心原则）。
+- 生成对应注解文档 [docs/B15_异常处理.md](docs/B15_异常处理.md)。
+- 更新 [README.md](README.md) 学习内容索引，加入 B15 条目。
+
 ## [2026-08-27][V1.1]
 
 ### 新增

@@ -23,7 +23,7 @@ PythonLearning/
 
 | 类型 | 规则 | 说明 |
 | --- | --- | --- |
-| 代码文件 | `BX_YYY.py` | `X` 为时间顺序编号，`YYY` 为学习内容（可用中文则中文，否则英文） |
+| 代码文件 | `BX_YYY.py` | `X` 为时间顺序编号，`YYY` 为学习内容（使用英文） |
 | 注解文档 | `BX_YYY.md` | `X` 与对应 py 一致，`YYY` 统一用中文，便于一眼定位 |
 
 ## 学习内容索引
@@ -44,6 +44,7 @@ PythonLearning/
 | B12 | 条件与循环 | [B12_ConditionalAndLoop.py](src/B12_ConditionalAndLoop.py) | [B12_条件与循环.md](docs/B12_条件与循环.md) |
 | B13 | 函数 | [B13_def.py](src/B13_def.py) | [B13_函数.md](docs/B13_函数.md) |
 | B14 | 学员管理系统 | [B14_DefApplication.py](src/B14_DefApplication.py) | [B14_学员管理系统.md](docs/B14_学员管理系统.md) |
+| B15 | 异常处理 | [B15_ExceptingHandling.py](src/B15_ExceptingHandling.py) | [B15_异常处理.md](docs/B15_异常处理.md) |
 
 ## 使用方式
 
