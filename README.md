@@ -13,8 +13,9 @@
 
 ```
 PythonLearning/
-├── src/           # Python 学习代码（BX_YYY.py）
-├── docs/          # 学习注解文档（BX_YYY.md，中文命名）
+├── src/           # 学习代码（BX_YYY.py）
+├── docs/          # 学习注解与练习注解（BX_YYY.md / TX_YYY.md，中文命名）
+├── practice/      # 练习代码（TX_YYY.py）
 ├── README.md      # 项目说明
 └── CHANGELOG.md   # 变更日志
 ```
@@ -23,8 +24,10 @@ PythonLearning/
 
 | 类型 | 规则 | 说明 |
 | --- | --- | --- |
-| 代码文件 | `BX_YYY.py` | `X` 为时间顺序编号，`YYY` 为学习内容（使用英文） |
-| 注解文档 | `BX_YYY.md` | `X` 与对应 py 一致，`YYY` 统一用中文，便于一眼定位 |
+| 学习代码 | `BX_YYY.py` | `X` 为时间顺序编号，`YYY` 为学习内容（使用英文） |
+| 学习注解 | `BX_YYY.md` | `X` 与对应 py 一致，`YYY` 统一用中文，便于一眼定位 |
+| 练习代码 | `TX_YYY.py` | `T` 表示练习题，`X` 为时间顺序编号，`YYY` 为练习内容（使用英文） |
+| 练习注解 | `TX_YYY.md` | 与对应练习代码一致，`YYY` 统一用中文 |
 
 ## 学习内容索引
 
@@ -43,8 +46,16 @@ PythonLearning/
 | B11 | 数据类型总结 | [B11_DataType.py](src/B11_DataType.py) | [B11_数据类型.md](docs/B11_数据类型.md) |
 | B12 | 条件与循环 | [B12_ConditionalAndLoop.py](src/B12_ConditionalAndLoop.py) | [B12_条件与循环.md](docs/B12_条件与循环.md) |
 | B13 | 函数 | [B13_def.py](src/B13_def.py) | [B13_函数.md](docs/B13_函数.md) |
-| B14 | 学员管理系统 | [B14_DefApplication.py](src/B14_DefApplication.py) | [B14_学员管理系统.md](docs/B14_学员管理系统.md) |
-| B15 | 异常处理 | [B15_ExceptingHandling.py](src/B15_ExceptingHandling.py) | [B15_异常处理.md](docs/B15_异常处理.md) |
+| B14 | 异常处理 | [B14_ExceptingHandling.py](src/B14_ExceptingHandling.py) | [B14_异常处理.md](docs/B14_异常处理.md) |
+| B15 | 模块与包 | [B15_ModulePackets.py](src/B15_ModulePackets.py) | [B15_模块与包.md](docs/B15_模块与包.md) |
+
+## 练习内容索引
+
+| 编号 | 练习主题 | 代码文件 | 注解文档 |
+| --- | --- | --- | --- |
+| T0 | 学员管理系统 | [T0_SystemManage.py](practice/T0_SystemManage.py) | [T0_学员管理系统.md](docs/T0_学员管理系统.md) |
+| T1 | 两数之和 | [T1_LeetCode1.py](practice/T1_LeetCode1.py) | [T1_两数之和.md](docs/T1_两数之和.md) |
+| T2 | 字母异位词分组 | [T2_LeetCode2.py](practice/T2_LeetCode2.py) | [T2_字母异位词分组.md](docs/T2_字母异位词分组.md) |
 
 ## 使用方式
 

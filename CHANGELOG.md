@@ -2,6 +2,17 @@
 
 > 记录本项目的更新历史与改动说明，按时间倒序排列。
 
+## [2026-08-31][v1.3]
+
+### 新增
+
+- 新增学习文件 [src/B15_ModulePackets.py](src/B15_ModulePackets.py)：模块与包（模块分类、三种导入方式、`if __name__ == "__main__"`、包的创建与导入、`__all__` 的使用），并生成注解文档 [docs/B15_模块与包.md](docs/B15_模块与包.md)，同时在 [README.md](README.md) 学习内容索引中将 B15 主题更新为「模块与包」。
+- 在 [README.md](README.md) 中新增「练习内容索引」小节，登记练习代码与对应注解：
+  - 练习 T0：学员管理系统（[practice/T0_SystemManage.py](practice/T0_SystemManage.py) / [docs/T0_学员管理系统.md](docs/T0_学员管理系统.md)）。
+  - 练习 T1：两数之和（[practice/T1_LeetCode1.py](practice/T1_LeetCode1.py) / [docs/T1_两数之和.md](docs/T1_两数之和.md)）。
+  - 练习 T2：字母异位词分组（[practice/T2_LeetCode2.py](practice/T2_LeetCode2.py) / [docs/T2_字母异位词分组.md](docs/T2_字母异位词分组.md)）。
+- 在 [docs/B6_字符串.md](docs/B6_字符串.md) 中补充 `join` 的用法（`分隔符.join(可迭代对象)`，`split` 的逆操作）。
+
 ## [2026-08-28][v1.2]
 
 ### 新增

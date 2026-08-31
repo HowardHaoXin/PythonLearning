@@ -122,3 +122,34 @@ finally:
 3) 处理逻辑要友好，给用户清晰的提示信息，避免程序崩溃。
 4) finally用于释放资源或执行清理操作，确保程序的健壮性，如：关闭文件、断开网络连接等。
 """
+
+# 4. 抛出自定义异常
+print('-'*20,'4.自定义异常','-'*20)
+# 4.1 自定义异常：“自己定义的错误类型”，专门应对业务场景的特殊错误
+# 4.2 自定义异常实现步骤：
+"""
+Step1: 创建异常对象，语法：异常类型(异常的具体描述信息)
+Step2: 使用raise关键字抛出异常对象，语法：raise 异常对象
+例如：
+Exception1 = Exception("余额不足！")
+raise Exception1
+"""
+# 需求：模拟银行取款场景
+# 定义账户余额与冻结状态
+account1 = {"ID":"123456", "balance": 1000, "is_frozen": False}
+def withdraw(withdraw_amount, account):
+    # 作用：模拟银行取款操作
+    # 基本逻辑：取款金额小于余额时，允许取款并改变账户余额，若取款金额大于余额，抛出异常：余额不足！，若账户被冻结，抛出异常：账户被冻结！
+    # 参数声明：
+    # withdraw_amount: 取款金额
+    # account: 账户信息，字典类型，包含账户ID、余额、冻结状态
+    # 返回值：无
+    if account["is_frozen"]:
+        raise Exception("账户已冻结！")
+    
+    if withdraw_amount > account["balance"]:
+        raise Exception("余额不足")
+
+    account["balance"] -= withdraw_amount
+    print(f"当前余额{account["balance"]}")
+withdraw(100, account1)
