@@ -28,6 +28,7 @@ PythonLearning/
 | 学习注解 | `BX_YYY.md` | `X` 与对应 py 一致，`YYY` 统一用中文，便于一眼定位 |
 | 练习代码 | `TX_YYY.py` | `T` 表示练习题，`X` 为时间顺序编号，`YYY` 为练习内容（使用英文） |
 | 练习注解 | `TX_YYY.md` | 与对应练习代码一致，`YYY` 统一用中文 |
+| 专题注解 | `TX-X_YYY.md` | `X-X` 表示题目序号范围（如 `T1-3`），`YYY` 为专题名称（统一用中文） |
 
 ## 学习内容索引
 
@@ -56,6 +57,15 @@ PythonLearning/
 | T0 | 学员管理系统 | [T0_SystemManage.py](practice/T0_SystemManage.py) | [T0_学员管理系统.md](docs/T0_学员管理系统.md) |
 | T1 | 两数之和 | [T1_LeetCode1.py](practice/T1_LeetCode1.py) | [T1_两数之和.md](docs/T1_两数之和.md) |
 | T2 | 字母异位词分组 | [T2_LeetCode2.py](practice/T2_LeetCode2.py) | [T2_字母异位词分组.md](docs/T2_字母异位词分组.md) |
+| T3 | 最长连续序列 | [T3_LeetCode3.py](practice/T3_LeetCode3.py) | [T3_最长连续序列.md](docs/T3_最长连续序列.md) |
+| T4 | 移动零 | [T4_LeetCode4.py](practice/T4_LeetCode4.py) | [T4_移动零.md](docs/T4_移动零.md) |
+| T5 | 盛最多水的容器 | [T5_LeetCode5.py](practice/T5_LeetCode5.py) | [T5_盛最多水的容器.md](docs/T5_盛最多水的容器.md) |
+
+## 专题索引
+
+| 专题 | 覆盖题目 | 注解文档 |
+| --- | --- | --- |
+| 哈希表专题 | T1 ~ T3 | [T1-3_哈希表专题.md](docs/T1-3_哈希表专题.md) |
 
 ## 使用方式
 
